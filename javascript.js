@@ -1,7 +1,10 @@
 
+// Button functionality
+
+
 const Container = document.getElementById("table");
 
-for(i=0 ; i < 16*16; i++) {
+for(i=0 ; i < 16 * 16; i++) {
     individualDiv = document.createElement("div");
     individualDiv.setAttribute("class", "tile");;
     Container.appendChild(individualDiv);
@@ -21,5 +24,8 @@ tiles.forEach(tile => {
   tile.addEventListener('mouseover', hoverIn);
   tile.addEventListener('mouseout', hoverOut);
 });
+
+
+
 
 

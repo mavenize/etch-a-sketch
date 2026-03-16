@@ -17,3 +17,15 @@
     border-radius: 10px;
 }
 
+#button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    background-color: aquamarine;
+    margin-top: 20px;
+}
+
